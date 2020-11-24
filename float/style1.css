@@ -1,0 +1,29 @@
+/* float : none, left, right */
+/* text wrapping, image galery, multi-column layout, dll */
+
+.container {
+  width: 600px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 5px;
+}
+
+.satu,
+.dua,
+.tiga {
+  width: 100px;
+  height: 100px;
+}
+
+.satu {
+  background-color: salmon;
+}
+
+.dua {
+  background-color: limegreen;
+  float: right;
+}
+
+.tiga {
+  background-color: lightskyblue;
+}
