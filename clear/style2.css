@@ -1,0 +1,28 @@
+/* float : none, left, right */
+/* text wrapping, image galery, multi-column layout, dll */
+
+/* cara menghentikan / membersihkan float */
+/* 
+1. menggunakan property overflow
+2. menggunakan div kosong
+3. menggunakan teknik micro clearfix
+*/
+
+.container {
+  width: 600px;
+  border: 1px solid black;
+  margin: auto;
+  padding: 5px;
+  /* overflow: auto; */
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin: 5px;
+}
+
+.clear {
+  clear: left;
+}
